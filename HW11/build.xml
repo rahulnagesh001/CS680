@@ -24,12 +24,6 @@
 			</javac>
 	</target>
 
-	<!-- <target name="run" depends="compile">
-		<java classname="edu.cs.cs680.Singleton">
-			<classpath path="bin" />
-		</java>
-	</target> -->
-	
 	<target name="JUnit_Test" depends="compile">
 		<junitlauncher printSummary="yes">
 			<classpath refid="test.classpath" />
